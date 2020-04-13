@@ -11,12 +11,28 @@ bool primo(int num){
     }
     return true;
 }
+int mayor(int num){
+	if(num<5){
+		num++;
+	}
+	else{
+		num--;
+	}
+}
 
 int main(){
+	
+	int a = 10, b = 5;
+	a=a+b;	
     std::cout<<primo(91);
-    
-
-
-
+    std::cout<<true<<endl;
+    std::cout<<"justo chupapingas gaaa\n";
+    std::cout<<"justo clon 2.0\n";
+//cambio de un commit
+	std::cout<<a<<endl;
+	a++;
+	--a;
+	std<<b+a<<endl;
+	    
     return 0;
 }
