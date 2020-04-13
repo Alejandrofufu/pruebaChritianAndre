@@ -11,12 +11,19 @@ bool primo(int num){
     }
     return true;
 }
+int mayor(int num){
+	if(num<5){
+		num++;
+	}
+	else{
+		num--;
+	}
+}
 
 int main(){
     std::cout<<primo(91);
+    std::cout<<true<<endl;
+    std::cout<<"justo chupapingas gaaa\n";
     
-
-
-
     return 0;
 }
