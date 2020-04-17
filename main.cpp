@@ -33,6 +33,7 @@ int main(){
 	a++;
 	--a;
 	std<<b+a<<endl;
+	
 	    
     return 0;
 }
